@@ -14,13 +14,17 @@
         "php": "^8.0|^8.1|^8.2",
         "illuminate/validation": "^8.0|^9.0|^10.0|^11.0",
         "laravel/nova": "^4.0",
-        "statikbe/laravel-chained-translator": "^2.0"
+        "statikbe/laravel-chained-translator": "dev-master"
     },
     "autoload": {
         "psr-4": {
             "Statikbe\\NovaTranslationManager\\": "src/"
         }
     },
+    "repositories": [{
+        "type": "git",
+        "url": "https://github.com/ExsyDev/laravel-chained-translator"
+    }],
     "extra": {
         "laravel": {
             "providers": [
